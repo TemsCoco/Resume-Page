@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%;
+    }
+
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 70vh;
+    background-image: linear-gradient(
+        to right bottom,
+        #caf0f8, #ffd166),
+        url(../img/tems.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+.logo {
+    height: 150px;
+}
+
+.logo-img {
+    height: 35px;
+}
+
+.nav-bar {
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading {
+    color: #bb8423;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+}
+
+.heading-main {
+    display: block;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+}
+
+.heading-sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+}
+
+.main {
+    height: 50vh;
+    background-image: linear-gradient(
+        to right bottom,
+        #ffd984, #f6eee8);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.main-box {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    text-align: center;
+}
+
+.block {
+    margin-top: 100px;
+    top: 50%;
+    float: left;
+    width: 33.3%;
+    border: 1px solid #f6eee8;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-footer {
+    height: 15vh;
+    background-image: linear-gradient(
+        to right bottom,
+        #ffd984, #f6eee8);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.footer-box {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    text-align: center;
+}
+
+.footer-block {
+    margin-top: 40px;
+    top: 50%;
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    align-items: center;
+}
